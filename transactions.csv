@@ -1,0 +1,7 @@
+TransactionID,UserID,Amount,CardCountry,Status
+TXN101,USR_01,250,Pakistan,Approved
+TXN102,USR_02,15000,USA,Approved
+TXN103,USR_03,999999,International,Pending
+TXN104,USR_01,250,Pakistan,Approved
+TXN105,USR_04,450,UK,Approved
+TXN106,USR_03,999999,International,Pending
