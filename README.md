@@ -1,13 +1,17 @@
-#  Fraud Detection & Financial Risk Analytics
+# Fraud Detection in Applications (Major Project)
 
-A rule-based data analytics project built using Python and **Pandas** to programmatically detect high-risk and anomalous financial transactions.
+This repository holds the updated framework for my Major Project as a Data Analyst Intern at Internee.pk.
 
-##  Automated Fraud Logic Applied
-1. **High-Value Thresholding:** Filtered transactions where `Amount > 100,000` to catch sudden capital risk signals.
-2. **Behavioral Deduplication:** Tracked repeated transaction profiles with identical user and amount parameters using `.duplicated()`.
-3. **Automated Auditing:** Isolated anomalous entries and generated a programmatic operations file (`fraud_alert_report.csv`).
+### Project Objective:
+The core target of this module is to analyze incoming user enrollment forms and automatically detect fraudulent behaviors, bot applications, or anomalous data entries.
 
-##  Tech Stack
-* Python 3
-* Pandas Library
-* Python IDLE
+### Extended Technical Architecture:
+* **Python** (Backend Manipulation)
+* **Pandas** (For text standardization using `.str.title()` and filtering logic)
+* **Scikit-Learn (sklearn)** (Unsupervised Machine Learning Engine)
+* **Isolation Forest Algorithm** (Contamination-based anomaly scoring)
+
+### Analytical Insights:
+* Programmed safety overrides to capture logical data errors (e.g., negative or impossible ages).
+* Employed an unsupervised Isolation Forest model to isolate rapid clicks and spam bot registrations.
+* Automatically generated clear visual anomaly classification alert tags.
