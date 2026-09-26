@@ -5,6 +5,9 @@ This repository holds the updated framework for my Major Project as a Data Analy
 ### Project Objective:
 The core target of this module is to analyze incoming user enrollment forms and automatically detect fraudulent behaviors, bot applications, or anomalous data entries.
 
+Dashboard Overview
+![Fraud Output Preview](Output%20(2).png)
+
 ### Extended Technical Architecture:
 * **Python** (Backend Manipulation)
 * **Pandas** (For text standardization using `.str.title()` and filtering logic)
