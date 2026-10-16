@@ -1,20 +1,23 @@
-# Fraud Detection in Applications (Major Project)
+# Fraud Detection Analytics
 
-This repository holds the updated framework for my Major Project as a Data Analyst Intern at Internee.pk.
+## Objective
+This project analyses application records and identifies entries that may show unusual or inconsistent patterns.
 
-### Project Objective:
-The core target of this module is to analyze incoming user enrollment forms and automatically detect fraudulent behaviors, bot applications, or anomalous data entries.
+## Tools
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Isolation Forest
+- Matplotlib
+
+## Method
+The data is cleaned and standardised using Pandas. Basic validation checks are applied to identify inconsistent values, such as impossible ages or incomplete records. Isolation Forest is used as an unsupervised method to flag potentially anomalous entries.
+
+## Result
+The project produces anomaly labels and a visual summary of records that require further review. These results are indicators for analysis and do not confirm that an entry is fraudulent.
 
 Dashboard Overview
 ![Fraud Output Preview](Output%20(2).png)
 
-### Extended Technical Architecture:
-* **Python** (Backend Manipulation)
-* **Pandas** (For text standardization using `.str.title()` and filtering logic)
-* **Scikit-Learn (sklearn)** (Unsupervised Machine Learning Engine)
-* **Isolation Forest Algorithm** (Contamination-based anomaly scoring)
 
-### Analytical Insights:
-* Programmed safety overrides to capture logical data errors (e.g., negative or impossible ages).
-* Employed an unsupervised Isolation Forest model to isolate rapid clicks and spam bot registrations.
-* Automatically generated clear visual anomaly classification alert tags.
